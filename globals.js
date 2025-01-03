@@ -1,0 +1,1 @@
+let WALLET_CONNECTED = '';

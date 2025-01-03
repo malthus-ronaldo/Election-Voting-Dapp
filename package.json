@@ -1,0 +1,30 @@
+{
+  "name": "malthus_voting_app",
+  "version": "1.0.0",
+  "description": "A Dockerize decentralised app using blockchain for make transparent vote",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malthus-ronaldo/Election-Voting-Dapp.git"
+  },
+  "author": "Malthus-Ronaldo Djatche",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/malthus-ronaldo/Election-Voting-Dapp/issues"
+  },
+  "homepage": "https://github.com/malthus-ronaldo/Election-Voting-Dapp#readme",
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@nomiclabs/hardhat-ethers": "^2.2.2",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.1",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "express-session": "^1.18.1",
+    "hardhat": "^2.13.0",
+    "path": "^0.12.7"
+  }
+}
